@@ -7,6 +7,8 @@ const app = require("./app");
 
 // database connection
 // DBConnect();
+
+
 mongoose.connect(process.env.DATABASE_LOCAL).then(()=>{
   console.log(`Database connection is successful 🛢` .green);
 })
